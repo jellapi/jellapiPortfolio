@@ -21,6 +21,24 @@
 		3C96ECF62B85CDD90021357D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C96ECF52B85CDD90021357D /* RxSwift */; };
 		3C96ECF82B85CDE40021357D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3C96ECF72B85CDE40021357D /* RxCocoa */; };
 		3C96ECFA2B85CF500021357D /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C96ECF92B85CF500021357D /* UserAgent.swift */; };
+		3CD747412B85D7A000422B54 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 3CD747402B85D7A000422B54 /* SwiftyJSON */; };
+		3CD747432B85DA5C00422B54 /* CustomerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747422B85DA5C00422B54 /* CustomerData.swift */; };
+		3CD747452B86E29F00422B54 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747442B86E29F00422B54 /* UserProfile.swift */; };
+		3CD747482B8700C200422B54 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747472B8700C200422B54 /* UserResponse.swift */; };
+		3CD7474A2B8700EF00422B54 /* RxRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747492B8700EF00422B54 /* RxRequest.swift */; };
+		3CD7474C2B87012D00422B54 /* ResponseHandleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7474B2B87012D00422B54 /* ResponseHandleModel.swift */; };
+		3CD7474F2B87018B00422B54 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7474E2B87018B00422B54 /* UserData.swift */; };
+		3CD747522B87028F00422B54 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747512B87028F00422B54 /* User.swift */; };
+		3CD747552B87051900422B54 /* RxRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747542B87051900422B54 /* RxRequestProtocol.swift */; };
+		3CD747592B87062600422B54 /* VTIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747582B87062600422B54 /* VTIcon.swift */; };
+		3CD7475B2B8706D900422B54 /* NOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7475A2B8706D900422B54 /* NOption.swift */; };
+		3CD7475D2B8706EC00422B54 /* LScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7475C2B8706EC00422B54 /* LScreen.swift */; };
+		3CD7475F2B8706F900422B54 /* UMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD7475E2B8706F900422B54 /* UMethods.swift */; };
+		3CD747612B87070600422B54 /* TOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747602B87070600422B54 /* TOptions.swift */; };
+		3CD747632B87071300422B54 /* RColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747622B87071300422B54 /* RColor.swift */; };
+		3CD747652B87071F00422B54 /* MOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747642B87071F00422B54 /* MOptions.swift */; };
+		3CD747672B87072F00422B54 /* FillnStrokeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747662B87072F00422B54 /* FillnStrokeColor.swift */; };
+		3CD747692B87078D00422B54 /* GMOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD747682B87078D00422B54 /* GMOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +74,23 @@
 		3C96ECDD2B85C92B0021357D /* jellapiCodesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jellapiCodesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3C96ECEB2B85CA890021357D /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		3C96ECF92B85CF500021357D /* UserAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgent.swift; sourceTree = "<group>"; };
+		3CD747422B85DA5C00422B54 /* CustomerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerData.swift; sourceTree = "<group>"; };
+		3CD747442B86E29F00422B54 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		3CD747472B8700C200422B54 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		3CD747492B8700EF00422B54 /* RxRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRequest.swift; sourceTree = "<group>"; };
+		3CD7474B2B87012D00422B54 /* ResponseHandleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandleModel.swift; sourceTree = "<group>"; };
+		3CD7474E2B87018B00422B54 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		3CD747512B87028F00422B54 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3CD747542B87051900422B54 /* RxRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRequestProtocol.swift; sourceTree = "<group>"; };
+		3CD747582B87062600422B54 /* VTIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTIcon.swift; sourceTree = "<group>"; };
+		3CD7475A2B8706D900422B54 /* NOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOption.swift; sourceTree = "<group>"; };
+		3CD7475C2B8706EC00422B54 /* LScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LScreen.swift; sourceTree = "<group>"; };
+		3CD7475E2B8706F900422B54 /* UMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMethods.swift; sourceTree = "<group>"; };
+		3CD747602B87070600422B54 /* TOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOptions.swift; sourceTree = "<group>"; };
+		3CD747622B87071300422B54 /* RColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RColor.swift; sourceTree = "<group>"; };
+		3CD747642B87071F00422B54 /* MOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOptions.swift; sourceTree = "<group>"; };
+		3CD747662B87072F00422B54 /* FillnStrokeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillnStrokeColor.swift; sourceTree = "<group>"; };
+		3CD747682B87078D00422B54 /* GMOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +100,7 @@
 			files = (
 				3C96ECF82B85CDE40021357D /* RxCocoa in Frameworks */,
 				3C96ECF62B85CDD90021357D /* RxSwift in Frameworks */,
+				3CD747412B85D7A000422B54 /* SwiftyJSON in Frameworks */,
 				3C96ECF42B85CDD90021357D /* RxRelay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,8 +178,9 @@
 		3C96ECEA2B85CA650021357D /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				3CD747532B87050D00422B54 /* Request */,
+				3CD7474D2B87017900422B54 /* UserData */,
 				3C96ECEB2B85CA890021357D /* Networking.swift */,
-				3C96ECF92B85CF500021357D /* UserAgent.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -153,6 +190,70 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CD747462B86FFEB00422B54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CD747442B86E29F00422B54 /* UserProfile.swift */,
+				3CD747472B8700C200422B54 /* UserResponse.swift */,
+				3CD7474B2B87012D00422B54 /* ResponseHandleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CD7474D2B87017900422B54 /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				3CD747562B8705C200422B54 /* CustomerData */,
+				3CD747502B87027900422B54 /* Model */,
+				3CD7474E2B87018B00422B54 /* UserData.swift */,
+			);
+			path = UserData;
+			sourceTree = "<group>";
+		};
+		3CD747502B87027900422B54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CD747512B87028F00422B54 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CD747532B87050D00422B54 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3CD747462B86FFEB00422B54 /* Models */,
+				3C96ECF92B85CF500021357D /* UserAgent.swift */,
+				3CD747492B8700EF00422B54 /* RxRequest.swift */,
+				3CD747542B87051900422B54 /* RxRequestProtocol.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3CD747562B8705C200422B54 /* CustomerData */ = {
+			isa = PBXGroup;
+			children = (
+				3CD747422B85DA5C00422B54 /* CustomerData.swift */,
+				3CD747572B87060D00422B54 /* SubModels */,
+			);
+			path = CustomerData;
+			sourceTree = "<group>";
+		};
+		3CD747572B87060D00422B54 /* SubModels */ = {
+			isa = PBXGroup;
+			children = (
+				3CD747582B87062600422B54 /* VTIcon.swift */,
+				3CD7475A2B8706D900422B54 /* NOption.swift */,
+				3CD7475C2B8706EC00422B54 /* LScreen.swift */,
+				3CD7475E2B8706F900422B54 /* UMethods.swift */,
+				3CD747602B87070600422B54 /* TOptions.swift */,
+				3CD747622B87071300422B54 /* RColor.swift */,
+				3CD747642B87071F00422B54 /* MOptions.swift */,
+				3CD747662B87072F00422B54 /* FillnStrokeColor.swift */,
+				3CD747682B87078D00422B54 /* GMOption.swift */,
+			);
+			path = SubModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +276,7 @@
 				3C96ECF32B85CDD90021357D /* RxRelay */,
 				3C96ECF52B85CDD90021357D /* RxSwift */,
 				3C96ECF72B85CDE40021357D /* RxCocoa */,
+				3CD747402B85D7A000422B54 /* SwiftyJSON */,
 			);
 			productName = jellapiCodes;
 			productReference = 3C96ECB72B85C9290021357D /* jellapiCodes.app */;
@@ -250,6 +352,7 @@
 			mainGroup = 3C96ECAE2B85C9290021357D;
 			packageReferences = (
 				3C96ECF12B85CDAA0021357D /* XCRemoteSwiftPackageReference "RxSwift" */,
+				3CD7473F2B85D7A000422B54 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 3C96ECB82B85C9290021357D /* Products */;
 			projectDirPath = "";
@@ -295,10 +398,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C96ECEC2B85CA890021357D /* Networking.swift in Sources */,
+				3CD747672B87072F00422B54 /* FillnStrokeColor.swift in Sources */,
 				3C96ECBF2B85C9290021357D /* ViewController.swift in Sources */,
+				3CD747652B87071F00422B54 /* MOptions.swift in Sources */,
 				3C96ECBB2B85C9290021357D /* AppDelegate.swift in Sources */,
+				3CD747482B8700C200422B54 /* UserResponse.swift in Sources */,
+				3CD7475D2B8706EC00422B54 /* LScreen.swift in Sources */,
+				3CD7474C2B87012D00422B54 /* ResponseHandleModel.swift in Sources */,
 				3C96ECBD2B85C9290021357D /* SceneDelegate.swift in Sources */,
+				3CD747612B87070600422B54 /* TOptions.swift in Sources */,
+				3CD747592B87062600422B54 /* VTIcon.swift in Sources */,
+				3CD7474A2B8700EF00422B54 /* RxRequest.swift in Sources */,
+				3CD747452B86E29F00422B54 /* UserProfile.swift in Sources */,
+				3CD747522B87028F00422B54 /* User.swift in Sources */,
+				3CD7475B2B8706D900422B54 /* NOption.swift in Sources */,
 				3C96ECFA2B85CF500021357D /* UserAgent.swift in Sources */,
+				3CD7475F2B8706F900422B54 /* UMethods.swift in Sources */,
+				3CD747432B85DA5C00422B54 /* CustomerData.swift in Sources */,
+				3CD747552B87051900422B54 /* RxRequestProtocol.swift in Sources */,
+				3CD747632B87071300422B54 /* RColor.swift in Sources */,
+				3CD747692B87078D00422B54 /* GMOption.swift in Sources */,
+				3CD7474F2B87018B00422B54 /* UserData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +775,14 @@
 				minimumVersion = 6.6.0;
 			};
 		};
+		3CD7473F2B85D7A000422B54 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -672,6 +800,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3C96ECF12B85CDAA0021357D /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
+		};
+		3CD747402B85D7A000422B54 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CD7473F2B85D7A000422B54 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

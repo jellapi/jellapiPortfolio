@@ -6,6 +6,9 @@
 //
 
 import UIKit
+@_exported import SwiftyJSON
+@_exported import RxSwift
+@_exported import RxCocoa
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
