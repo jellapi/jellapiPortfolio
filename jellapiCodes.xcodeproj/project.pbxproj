@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C5AD1F42B8728DD00A532AA /* NDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5AD1EF2B8728C700A532AA /* NDI.framework */; };
+		3C5AD1F52B8728DD00A532AA /* NDI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5AD1EF2B8728C700A532AA /* NDI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3C96ECBB2B85C9290021357D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C96ECBA2B85C9290021357D /* AppDelegate.swift */; };
 		3C96ECBD2B85C9290021357D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C96ECBC2B85C9290021357D /* SceneDelegate.swift */; };
 		3C96ECBF2B85C9290021357D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C96ECBE2B85C9290021357D /* ViewController.swift */; };
@@ -42,6 +44,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3C5AD1EE2B8728C700A532AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5AD1E92B8728C700A532AA /* NDI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 189E7C7627D70AB50086E100;
+			remoteInfo = NDI;
+		};
+		3C5AD1F02B8728C700A532AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5AD1E92B8728C700A532AA /* NDI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 189E7C8027D70AB50086E100;
+			remoteInfo = NDITests;
+		};
+		3C5AD1F22B8728D600A532AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5AD1E92B8728C700A532AA /* NDI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 189E7C7527D70AB50086E100;
+			remoteInfo = NDI;
+		};
 		3C96ECCE2B85C92B0021357D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3C96ECAF2B85C9290021357D /* Project object */;
@@ -58,7 +81,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3C5AD1F62B8728DD00A532AA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3C5AD1F52B8728DD00A532AA /* NDI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3C5AD1E92B8728C700A532AA /* NDI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = NDI.xcodeproj; sourceTree = "<group>"; };
 		3C96ECB72B85C9290021357D /* jellapiCodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jellapiCodes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C96ECBA2B85C9290021357D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C96ECBC2B85C9290021357D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +139,7 @@
 				3C96ECF82B85CDE40021357D /* RxCocoa in Frameworks */,
 				3C96ECF62B85CDD90021357D /* RxSwift in Frameworks */,
 				3CD747412B85D7A000422B54 /* SwiftyJSON in Frameworks */,
+				3C5AD1F42B8728DD00A532AA /* NDI.framework in Frameworks */,
 				3C96ECF42B85CDD90021357D /* RxRelay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,9 +161,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C5AD1EA2B8728C700A532AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5AD1EF2B8728C700A532AA /* NDI.framework */,
+				3C5AD1F12B8728C700A532AA /* NDITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3C96ECAE2B85C9290021357D = {
 			isa = PBXGroup;
 			children = (
+				3C5AD1E92B8728C700A532AA /* NDI.xcodeproj */,
 				3C96ECB92B85C9290021357D /* jellapiCodes */,
 				3C96ECD02B85C92B0021357D /* jellapiCodesTests */,
 				3C96ECDA2B85C92B0021357D /* jellapiCodesUITests */,
@@ -266,10 +315,12 @@
 				3C96ECB32B85C9290021357D /* Sources */,
 				3C96ECB42B85C9290021357D /* Frameworks */,
 				3C96ECB52B85C9290021357D /* Resources */,
+				3C5AD1F62B8728DD00A532AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3C5AD1F32B8728D600A532AA /* PBXTargetDependency */,
 			);
 			name = jellapiCodes;
 			packageProductDependencies = (
@@ -356,6 +407,12 @@
 			);
 			productRefGroup = 3C96ECB82B85C9290021357D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3C5AD1EA2B8728C700A532AA /* Products */;
+					ProjectRef = 3C5AD1E92B8728C700A532AA /* NDI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3C96ECB62B85C9290021357D /* jellapiCodes */,
@@ -364,6 +421,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3C5AD1EF2B8728C700A532AA /* NDI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NDI.framework;
+			remoteRef = 3C5AD1EE2B8728C700A532AA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3C5AD1F12B8728C700A532AA /* NDITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NDITests.xctest;
+			remoteRef = 3C5AD1F02B8728C700A532AA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3C96ECB52B85C9290021357D /* Resources */ = {
@@ -442,6 +516,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3C5AD1F32B8728D600A532AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NDI;
+			targetProxy = 3C5AD1F22B8728D600A532AA /* PBXContainerItemProxy */;
+		};
 		3C96ECCF2B85C92B0021357D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3C96ECB62B85C9290021357D /* jellapiCodes */;
